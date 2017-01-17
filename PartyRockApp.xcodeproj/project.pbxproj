@@ -16,6 +16,8 @@
 		C262C6641E2CDB940034DB58 /* PartyRockAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C262C6631E2CDB940034DB58 /* PartyRockAppUITests.swift */; };
 		C2F553231E2CE3AE008CC7C2 /* Oranienbaum.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2F553221E2CE3AE008CC7C2 /* Oranienbaum.ttf */; };
 		C2F553261E2CE549008CC7C2 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F553251E2CE549008CC7C2 /* VideoVC.swift */; };
+		C2F553281E2E1ED9008CC7C2 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F553271E2E1ED9008CC7C2 /* PartyCell.swift */; };
+		C2F5532A1E2E2204008CC7C2 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F553291E2E2204008CC7C2 /* PartyRock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C262C6651E2CDB940034DB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F553221E2CE3AE008CC7C2 /* Oranienbaum.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Oranienbaum.ttf; sourceTree = "<group>"; };
 		C2F553251E2CE549008CC7C2 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		C2F553271E2E1ED9008CC7C2 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		C2F553291E2E2204008CC7C2 /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 		C2F553201E2CDFE5008CC7C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C2F553291E2E2204008CC7C2 /* PartyRock.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 		C2F553211E2CDFED008CC7C2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C2F553271E2E1ED9008CC7C2 /* PartyCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -300,6 +306,8 @@
 			files = (
 				C2F553261E2CE549008CC7C2 /* VideoVC.swift in Sources */,
 				C262C6461E2CDB940034DB58 /* MainVC.swift in Sources */,
+				C2F5532A1E2E2204008CC7C2 /* PartyRock.swift in Sources */,
+				C2F553281E2E1ED9008CC7C2 /* PartyCell.swift in Sources */,
 				C262C6441E2CDB940034DB58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
