@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11761" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11761" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -157,14 +157,30 @@
                                     <constraint firstAttribute="height" constant="211" id="CeU-wG-pma"/>
                                 </constraints>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBh-vd-3UL">
+                                <rect key="frame" x="21" y="261" width="333" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="0kJ-fn-LlO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.83033112050000002" green="0.83033112050000002" blue="0.83033112050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="JHO-mA-5Tn" firstAttribute="leading" secondItem="tLU-ae-bWG" secondAttribute="leading" id="Cfb-np-PON"/>
+                            <constraint firstItem="MBh-vd-3UL" firstAttribute="leading" secondItem="tLU-ae-bWG" secondAttribute="leadingMargin" constant="5" id="PAp-gO-a02"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MBh-vd-3UL" secondAttribute="trailing" constant="5" id="RiB-9N-Z8M"/>
                             <constraint firstAttribute="trailing" secondItem="JHO-mA-5Tn" secondAttribute="trailing" id="Vnh-4W-Zcy"/>
                             <constraint firstItem="JHO-mA-5Tn" firstAttribute="top" secondItem="tLU-ae-bWG" secondAttribute="top" id="VwK-MW-697"/>
+                            <constraint firstItem="MBh-vd-3UL" firstAttribute="top" secondItem="JHO-mA-5Tn" secondAttribute="bottom" constant="50" id="bOF-L6-VIo"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="videoTitleLbl" destination="MBh-vd-3UL" id="c3R-9j-HEQ"/>
+                        <outlet property="webView" destination="JHO-mA-5Tn" id="nq0-Nz-uQ4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SX9-EP-pPa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
